@@ -2382,8 +2382,8 @@ end
 
 Logos = {
     XanBar = "rbxassetid://94696612974089",
-    XanBarBody = "rbxassetid://94696612974089",
-    XanBarAccent = "rbxassetid://94696612974089",
+    XanBarBody = "rbxassetid://83584167187905",
+    XanBarAccent = "rbxassetid://81094742300113",
     Default = "rbxassetid://94696612974089"
 }
 
