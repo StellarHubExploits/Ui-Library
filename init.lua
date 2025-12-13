@@ -2435,8 +2435,8 @@ Icons = {
 
 GameIcons = {
     Frontlines = "rbxassetid://91169073001203",
-    Dns = "rbxassetid://129222235125582",
-    TheForge = "rbxassetid://98431104957716",
+    Dns = "rbxassetid://134660165438205",
+    TheForge = "rbxassetid://105872559747614",
     Riotfall = "rbxassetid://92353922399927",
     Deadline = "rbxassetid://119312151896303",
     NightsInForest = "rbxassetid://110762944786179",
