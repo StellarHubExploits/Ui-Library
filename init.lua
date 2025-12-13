@@ -19212,7 +19212,7 @@ function Xan:CreateWindow(config)
                 Position = UDim2.new(1, -82, 0.5, -16),
                 Size = UDim2.new(0, 70, 0, 32),
                 Font = Enum.Font.GothamBold,
-                Text = isMaintenance and "Offline" or "Load",
+                Text = isMaintenance and "Offline" or "Execute",
                 TextColor3 = Color3.new(1, 1, 1),
                 TextSize = IsMobile and 13 or 12,
                 AutoButtonColor = false,
