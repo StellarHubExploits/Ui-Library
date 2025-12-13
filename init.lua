@@ -2378,13 +2378,11 @@ function UI.Card(props, children)
     return frame
 end
 
-
-
 Logos = {
-    XanBar = "rbxassetid://94696612974089",
+    XanBar = "rbxassetid://129616069466345",
     XanBarBody = "rbxassetid://83584167187905",
     XanBarAccent = "rbxassetid://81094742300113",
-    Default = "rbxassetid://94696612974089"
+    Default = "rbxassetid://129616069466345"
 }
 
 Icons = {
