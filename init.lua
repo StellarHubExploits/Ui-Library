@@ -2382,8 +2382,8 @@ end
 
 Logos = {
     XanBar = "rbxassetid://94696612974089",
-    XanBarBody = "rbxassetid://83584167187905",
-    XanBarAccent = "rbxassetid://81094742300113",
+    XanBarBody = "rbxassetid://94696612974089",
+    XanBarAccent = "rbxassetid://94696612974089",
     Default = "rbxassetid://94696612974089"
 }
 
@@ -2435,8 +2435,8 @@ Icons = {
 
 GameIcons = {
     Frontlines = "rbxassetid://91169073001203",
-    Dns = "rbxassetid://134660165438205",
-    TheForge = "rbxassetid://105872559747614",
+    Dns = "rbxassetid://112611756849056",
+    TheForge = "rbxassetid://91356624875805",
     Riotfall = "rbxassetid://92353922399927",
     Deadline = "rbxassetid://119312151896303",
     NightsInForest = "rbxassetid://110762944786179",
