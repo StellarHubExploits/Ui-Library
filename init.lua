@@ -367,6 +367,54 @@ Xan.Themes = {
         ShadowTransparency = 0.65
     },
     
+    MidnightViolet = {
+    Name = "MidnightViolet",
+    Accent = Color3.fromRGB(153, 102, 255),        -- violet
+    AccentDark = Color3.fromRGB(125, 75, 230),
+    AccentLight = Color3.fromRGB(178, 153, 255),
+    
+    Background = Color3.fromRGB(10, 10, 15),
+    BackgroundSecondary = Color3.fromRGB(15, 15, 22),
+    BackgroundTertiary = Color3.fromRGB(22, 22, 32),
+    
+    Sidebar = Color3.fromRGB(12, 12, 18),
+    SidebarActive = Color3.fromRGB(25, 25, 35),
+    SidebarDepth = Color3.fromRGB(8, 8, 12),
+    
+    Card = Color3.fromRGB(18, 18, 26),
+    CardHover = Color3.fromRGB(25, 25, 35),
+    CardBorder = Color3.fromRGB(35, 35, 50),
+    
+    Text = Color3.fromRGB(240, 240, 250),
+    TextSecondary = Color3.fromRGB(170, 170, 190),
+    TextDim = Color3.fromRGB(95, 95, 115),
+    TextMuted = Color3.fromRGB(65, 65, 80),
+    
+    Toggle = Color3.fromRGB(40, 40, 52),
+    ToggleEnabled = Color3.fromRGB(153, 102, 255),
+    ToggleKnob = Color3.fromRGB(255, 255, 255),
+    
+    Slider = Color3.fromRGB(35, 35, 48),
+    SliderFill = Color3.fromRGB(153, 102, 255),
+    
+    Input = Color3.fromRGB(20, 20, 30),
+    InputBorder = Color3.fromRGB(45, 45, 62),
+    InputFocused = Color3.fromRGB(153, 102, 255),
+    
+    Dropdown = Color3.fromRGB(20, 20, 30),
+    DropdownHover = Color3.fromRGB(30, 30, 42),
+    
+    Divider = Color3.fromRGB(35, 35, 48),
+    
+    Success = Color3.fromRGB(52, 211, 153),
+    Warning = Color3.fromRGB(251, 191, 36),
+    Error = Color3.fromRGB(248, 113, 113),
+    Info = Color3.fromRGB(178, 153, 255),
+    
+    Shadow = Color3.fromRGB(0, 0, 0),
+    ShadowTransparency = 0.65
+}
+
     Forest = {
         Name = "Forest",
         Accent = Color3.fromRGB(76, 175, 80),
@@ -479,7 +527,7 @@ function Xan:SaveCustomThemes()
     
     local customThemes = {}
     local builtInThemes = {
-        "Default", "Rose", "Midnight", "Blood", "Emerald", "Forest",
+        "Default", "Rose", "Midnight", "Blood", "Emerald", "MidnightViolet", "Forest",
         "Neon", "Sunset", "Ocean"
     }
     
@@ -536,7 +584,7 @@ end
 
 function Xan:DeleteCustomTheme(themeName)
     local builtInThemes = {
-        "Default", "Rose", "Midnight", "Blood", "Emerald", "Forest",
+        "Default", "Rose", "Midnight", "Blood", "Emerald", "MidnightViolet","Forest",
         "Neon", "Sunset", "Ocean"
     }
     
@@ -559,7 +607,7 @@ function Xan:GetCustomThemeNames()
     local customThemes = {}
     local builtInThemes = {
         "Default", "Rose", "Midnight", "Blood", "Emerald", "Forest",
-        "Neon", "Sunset", "Ocean"
+        "Neon", "Sunset", "Ocean", "MidnightViolet"
     }
     
     for themeName, _ in pairs(self.Themes) do
@@ -8320,7 +8368,7 @@ function Xan:CreateWindow(config)
         
         local builtInThemes = {
             Default = true, Rose = true, Midnight = true, Blood = true, Emerald = true,
-            Forest = true, Ripple = true, Neon = true, Sunset = true, Ocean = true
+            Forest = true, Ripple = true, Neon = true, Sunset = true, Ocean = true, MidnightViolet = true
         }
         local isCustomTheme = not builtInThemes[themeName]
         
